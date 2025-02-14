@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Name Card - Jatin</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f5f5;
+            margin: 0;
+        }
+
+        .card {
+            background: #ffffff;
+            padding: 20px;
+            width: 350px;
+            border-radius: 12px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .profile-pic {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: #007bff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-size: 24px;
+            font-weight: bold;
+            margin: 0 auto 15px;
+        }
+
+        .name {
+            font-size: 22px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .company {
+            font-size: 18px;
+            color: #04070b;
+            font-weight: 500;
+        }
+
+        .phone {
+            font-size: 16px;
+            color: #666;
+            margin-top: 10px;
+        }
+
+        .card-footer {
+            margin-top: 15px;
+        }
+
+        .contact-btn {
+            text-decoration: none;
+            background: #03070a;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 6px;
+            font-size: 14px;
+            display: inline-block;
+            transition: background 0.3s;
+        }
+
+        .contact-btn:hover {
+            background: #000000;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="profile-pic">J</div>
+        <div class="name">Jatin</div>
+        <div class="company">IGT</div>
+        <div class="phone">📞 xxxxxxx6898</div>
+        <div class="card-footer">
+            <a href="tel:xxxxxxx6898" class="contact-btn">Call Now</a>
+        </div>
+    </div>
+
+</body>
+</html>
